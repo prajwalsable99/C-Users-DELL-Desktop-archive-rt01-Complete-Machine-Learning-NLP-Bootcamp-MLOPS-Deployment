@@ -1,0 +1,15 @@
+to create:
+
+python -m venv my-env-name
+
+to start :
+
+\venv my-env-name\Scripts\activate
+
+to exit :
+
+deactivate
+
+to remove completely:
+
+rm -r .\my-env-name\

@@ -1,0 +1,141 @@
+DEBUG:root:This is a debug message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+2024-09-10 15:17:20,441 - my_logger - DEBUG - This is a debug message
+DEBUG:my_logger:This is a debug message
+2024-09-10 15:17:20,442 - my_logger - INFO - This is an info message
+INFO:my_logger:This is an info message
+2024-09-10 15:17:20,444 - my_logger - WARNING - This is a warning message
+WARNING:my_logger:This is a warning message
+2024-09-10 15:17:20,445 - my_logger - ERROR - This is an error message
+ERROR:my_logger:This is an error message
+2024-09-10 15:17:20,447 - my_logger - CRITICAL - This is a critical message
+CRITICAL:my_logger:This is a critical message
+DEBUG:custom_logger:This is a debug message
+INFO:custom_logger:This is an info message
+WARNING:custom_logger:This is a warning message
+ERROR:custom_logger:This is an error message
+CRITICAL:custom_logger:This is a critical message
+DEBUG:multi_format_logger:This is a debug message
+INFO:multi_format_logger:This is an info message
+WARNING:multi_format_logger:This is a warning message
+ERROR:multi_format_logger:This is an error message
+CRITICAL:multi_format_logger:This is a critical message
+DEBUG:rotating_logger:This is debug message number 0
+DEBUG:rotating_logger:This is debug message number 1
+DEBUG:rotating_logger:This is debug message number 2
+DEBUG:rotating_logger:This is debug message number 3
+DEBUG:rotating_logger:This is debug message number 4
+DEBUG:rotating_logger:This is debug message number 5
+DEBUG:rotating_logger:This is debug message number 6
+DEBUG:rotating_logger:This is debug message number 7
+DEBUG:rotating_logger:This is debug message number 8
+DEBUG:rotating_logger:This is debug message number 9
+DEBUG:rotating_logger:This is debug message number 10
+DEBUG:rotating_logger:This is debug message number 11
+DEBUG:rotating_logger:This is debug message number 12
+DEBUG:rotating_logger:This is debug message number 13
+DEBUG:rotating_logger:This is debug message number 14
+DEBUG:rotating_logger:This is debug message number 15
+DEBUG:rotating_logger:This is debug message number 16
+DEBUG:rotating_logger:This is debug message number 17
+DEBUG:rotating_logger:This is debug message number 18
+DEBUG:rotating_logger:This is debug message number 19
+DEBUG:rotating_logger:This is debug message number 20
+DEBUG:rotating_logger:This is debug message number 21
+DEBUG:rotating_logger:This is debug message number 22
+DEBUG:rotating_logger:This is debug message number 23
+DEBUG:rotating_logger:This is debug message number 24
+DEBUG:rotating_logger:This is debug message number 25
+DEBUG:rotating_logger:This is debug message number 26
+DEBUG:rotating_logger:This is debug message number 27
+DEBUG:rotating_logger:This is debug message number 28
+DEBUG:rotating_logger:This is debug message number 29
+DEBUG:rotating_logger:This is debug message number 30
+DEBUG:rotating_logger:This is debug message number 31
+DEBUG:rotating_logger:This is debug message number 32
+DEBUG:rotating_logger:This is debug message number 33
+DEBUG:rotating_logger:This is debug message number 34
+DEBUG:rotating_logger:This is debug message number 35
+DEBUG:rotating_logger:This is debug message number 36
+DEBUG:rotating_logger:This is debug message number 37
+DEBUG:rotating_logger:This is debug message number 38
+DEBUG:rotating_logger:This is debug message number 39
+DEBUG:rotating_logger:This is debug message number 40
+DEBUG:rotating_logger:This is debug message number 41
+DEBUG:rotating_logger:This is debug message number 42
+DEBUG:rotating_logger:This is debug message number 43
+DEBUG:rotating_logger:This is debug message number 44
+DEBUG:rotating_logger:This is debug message number 45
+DEBUG:rotating_logger:This is debug message number 46
+DEBUG:rotating_logger:This is debug message number 47
+DEBUG:rotating_logger:This is debug message number 48
+DEBUG:rotating_logger:This is debug message number 49
+DEBUG:rotating_logger:This is debug message number 50
+DEBUG:rotating_logger:This is debug message number 51
+DEBUG:rotating_logger:This is debug message number 52
+DEBUG:rotating_logger:This is debug message number 53
+DEBUG:rotating_logger:This is debug message number 54
+DEBUG:rotating_logger:This is debug message number 55
+DEBUG:rotating_logger:This is debug message number 56
+DEBUG:rotating_logger:This is debug message number 57
+DEBUG:rotating_logger:This is debug message number 58
+DEBUG:rotating_logger:This is debug message number 59
+DEBUG:rotating_logger:This is debug message number 60
+DEBUG:rotating_logger:This is debug message number 61
+DEBUG:rotating_logger:This is debug message number 62
+DEBUG:rotating_logger:This is debug message number 63
+DEBUG:rotating_logger:This is debug message number 64
+DEBUG:rotating_logger:This is debug message number 65
+DEBUG:rotating_logger:This is debug message number 66
+DEBUG:rotating_logger:This is debug message number 67
+DEBUG:rotating_logger:This is debug message number 68
+DEBUG:rotating_logger:This is debug message number 69
+DEBUG:rotating_logger:This is debug message number 70
+DEBUG:rotating_logger:This is debug message number 71
+DEBUG:rotating_logger:This is debug message number 72
+DEBUG:rotating_logger:This is debug message number 73
+DEBUG:rotating_logger:This is debug message number 74
+DEBUG:rotating_logger:This is debug message number 75
+DEBUG:rotating_logger:This is debug message number 76
+DEBUG:rotating_logger:This is debug message number 77
+DEBUG:rotating_logger:This is debug message number 78
+DEBUG:rotating_logger:This is debug message number 79
+DEBUG:rotating_logger:This is debug message number 80
+DEBUG:rotating_logger:This is debug message number 81
+DEBUG:rotating_logger:This is debug message number 82
+DEBUG:rotating_logger:This is debug message number 83
+DEBUG:rotating_logger:This is debug message number 84
+DEBUG:rotating_logger:This is debug message number 85
+DEBUG:rotating_logger:This is debug message number 86
+DEBUG:rotating_logger:This is debug message number 87
+DEBUG:rotating_logger:This is debug message number 88
+DEBUG:rotating_logger:This is debug message number 89
+DEBUG:rotating_logger:This is debug message number 90
+DEBUG:rotating_logger:This is debug message number 91
+DEBUG:rotating_logger:This is debug message number 92
+DEBUG:rotating_logger:This is debug message number 93
+DEBUG:rotating_logger:This is debug message number 94
+DEBUG:rotating_logger:This is debug message number 95
+DEBUG:rotating_logger:This is debug message number 96
+DEBUG:rotating_logger:This is debug message number 97
+DEBUG:rotating_logger:This is debug message number 98
+DEBUG:rotating_logger:This is debug message number 99
+ERROR:exception_logger:An exception occurred
+Traceback (most recent call last):
+  File "C:\Users\PS001028870\AppData\Local\Temp\ipykernel_20896\3259282278.py", line 12, in log_exception
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+DEBUG:context_logger:This is a debug message
+INFO:context_logger:This is an info message
+WARNING:context_logger:This is a warning message
+ERROR:context_logger:This is an error message
+CRITICAL:context_logger:This is a critical message
+DEBUG:additional_context_logger:This is a debug message
+INFO:additional_context_logger:This is an info message
+WARNING:additional_context_logger:This is a warning message
+ERROR:additional_context_logger:This is an error message
+CRITICAL:additional_context_logger:This is a critical message
